@@ -63,4 +63,4 @@ if prompt:= st.chat_input("What is up?"):
             st.markdown(response_stream)
 
     # Add user message to chat history
-    st.session_state.messages_riasec.append({"role": "assistant", "content": response_stream})
+    st.session_state.messages_docs.append({"role": "assistant", "content": response_stream})
