@@ -6,3 +6,4 @@
 
 # Streamlit
 .streamlit/secrets.toml
+*.toml
